@@ -1,0 +1,11 @@
+
+.dark {
+    background: #333;
+    color: #fff
+}
+
+.light .default {
+    background: #fff;
+    color: #333
+}
+
