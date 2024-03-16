@@ -21,7 +21,7 @@ def ask_question(prompt, context):
             }
         ],
         temperature=0.9,
-        max_tokens=50,
+        max_tokens=100,
         top_p=1
     )
     answer = response.choices[0].message.content
