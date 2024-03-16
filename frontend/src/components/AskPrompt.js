@@ -7,7 +7,7 @@ const AskPrompt = () => {
     const [question, setQuestion] = useState("")
     const [answer, setAnswer] = useState("")
     const [isLoading, setIsLoading] = useState(false)
-    const {theme, toggleTheme} = useTheme()
+    const {toggleTheme} = useTheme()
 
     const handleChange = (e) => {
         setQuestion(e.target.value)
