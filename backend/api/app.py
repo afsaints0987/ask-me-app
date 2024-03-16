@@ -20,8 +20,8 @@ def ask_question(prompt, context):
                 "content": prompt,
             }
         ],
-        temperature=0.7,
-        max_tokens=64,
+        temperature=0.9,
+        max_tokens=50,
         top_p=1
     )
     answer = response.choices[0].message.content

@@ -5,7 +5,7 @@ if(environment === "development"){
 } else {
     api_url = "https://ask-me-app-backend.vercel.app/ask";
 }
-
+console.log(api_url)
 export const getAnswer = async (question) => {
     try {
         const response = await fetch(api_url, {
